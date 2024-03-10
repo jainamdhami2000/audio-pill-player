@@ -332,6 +332,9 @@ const App = () => {
         className="py-5"
         style={{ minHeight: "100vh", display: "flex", flexFlow: "column" }}
       >
+        <div className="text-center mb-2">
+          <h1>Audio Pill Player</h1>
+        </div>
         <Row className="justify-content-center">
           <Col md={6}>
             {/* Component to input and validate duration */}
