@@ -1,0 +1,30 @@
+.track-pill {
+    position: relative;
+    border-radius: 4px;
+    height: 40px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 0.8em;
+    display: flex;
+    align-items: center;
+  }
+  
+  .track-pill.first {
+    margin-top: 0;
+  }
+  
+  .remove-button {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    cursor: pointer;
+    font-size: 1.2em;
+  }
+  
+  /* Add hover effect for the remove button */
+  .remove-button:hover {
+    color: #ff0000;
+  }
+  

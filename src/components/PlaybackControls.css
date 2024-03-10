@@ -1,0 +1,11 @@
+.playback-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+  }
+  
+  .control-button {
+    border: none;
+    background-color: transparent;
+  }
