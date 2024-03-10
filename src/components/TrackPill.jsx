@@ -41,9 +41,7 @@ const TrackPill = ({
           marginLeft: `${(track.start / duration) * 100}%`,
         }}
       >
-        <XCircleFill className="remove-button" onClick={() => onRemove()}>
-          {/* Icon is self-explanatory, no need for &times; */}
-        </XCircleFill>
+        <XCircleFill className="remove-button" onClick={() => onRemove()} />
       </div>
     </OverlayTrigger>
   );

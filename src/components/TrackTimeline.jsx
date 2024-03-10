@@ -11,6 +11,7 @@ const TrackTimeline = ({
   return (
     <>
       <div
+        className="timeline-container"
         style={{
           position: "relative",
           width: "100%",
@@ -46,7 +47,7 @@ const TrackTimeline = ({
       >
         {trackInstances.map((track, index) => (
           <TrackPill
-            key={track.instanceId}
+            key={index}
             track={track}
             index={index}
             onRemove={() => onRemoveTrack(track.instanceId)}
